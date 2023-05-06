@@ -1,0 +1,89 @@
+body {
+    padding-top: 56px;
+    font-family: 'Comfortaa';
+}
+
+h1, h2 {
+    text-shadow: 1px 1px 1px #005f828e;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat';
+}
+  
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.card-title a {
+    color: #005f82;
+}
+
+.card-title *:hover {
+    text-decoration: none;
+    color: #5ca1e1;
+}
+
+#hero-image {
+    background: url("../images/cloud-bg.jpg");
+}
+
+#teamButton {
+    border-radius: 4px;
+    background-color: #5ca1e1;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+  #teamButton {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #teamButton:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #teamButton:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  #teamButton:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+#contact-bg {
+    background: url("../images/contact-bg.jpg");
+    background-size: cover;
+}
+
+.text-center {
+    padding-top: 20px;
+}
+
+.btn-primary {
+    background-color: #5ca1e1;
+    border: none;
+}
+
+.container-fluid p {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- Custom Styles -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Portfolio Site</title>
+  </head>
+  <body>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Portfolio Site</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <!-- Page Content -->
+   <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">About</h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item active">About</li>
+    </ol>
+
+    <!-- Intro Content -->
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-fluid rounded mb-4" src="images/office-teamwork.jpg" alt="Photo of a team working together in an office">
+      </div>
+      <div class="col-lg-6">
+        <h2>About Us</h2>
+        <p>Welcome to our site. We're glad you found us!</p>
+        <p>We started working together just a short 4 months ago, but you would never expect that with the amount of work we've found ourselves in that short time! We found that we work well as a team because of our distinct skill sets and the cohesive results that happen when applied together. Sarah has the strong technical background in building websites and Adam has an uncanny ability to fill the blank spaces with words so the websites don't look empty.</p>
+        <p>Feel free to reach out to us any time your project needs via the "<b>Get a Quote!</b>" button below. We would love to help with you create your next project!</p>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Team Members -->
+    <h2>Our Team</h2>
+
+    <div class="row">
+      <div class="col-lg-5 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="images/SarahProfile.jpg" alt="Sarah Profile Image">
+          <div class="card-body">
+            <h4 class="card-title">Sarah Schlueter</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Scrum Master</h6>
+            <p class="card-text">Student at NTC and freelance web developer, specializing in eCommerce websites. Favorite frameworks/libraries include Bootstrap, Ruby on Rails & jQuery.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#">smschlueter@students.ntc.edu</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 mb-4">
+        <div class="card h-100 text-center">
+          <img class="card-img-top" src="images/adamprofile.jpeg" alt="Adam Profile Image">
+          <div class="card-body">
+            <h4 class="card-title">Adam Domka</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Product Manager</h6>
+            <p class="card-text">Student at NTC in the Software Development program. Past experience includes additive manufacturing, video production and motion design.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#">ajdomka@students.ntc.edu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Our Customers -->
+    <h2>Our Customers</h2>
+    <div class="row">
+      <div class="col-lg-2 col-sm-4 mb-4">
+        <img class="img-fluid" src="images/Marys_toys_500x300.png" alt="Mary's Toys screenshot">
+      </div>
+      <div class="col-lg-2 col-sm-4 mb-4">
+        <img class="img-fluid" src="images/Arts_Parts_500x300.png" alt="Arts & Parts screenshot">
+      </div>
+      <div class="col-lg-2 col-sm-4 mb-4">
+        <img class="img-fluid" src="images/Trivia_500x300.png" alt="Trivia screenshot">
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+
+  <section>
+    <div id="contact-bg"> 
+      <div class="container-fluid text-center">
+          <h1 class="display-4"><b>Have a Project?</b></h1>
+          <p class="lead"><b>Fill out our quick project questionnaire and someone will contact you soon!</b></p>
+          <p>
+          <a type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Get a Quote!</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; NTC Portfolio Site 2021</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+<!--===================================
+FORM MODAL
+===================================-->
+
+ <div id ="register" class="modal fade">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-dark text-white">
+        <h5 class="modal-title">Get a Project Quote</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- quote form -->
+        <form>
+          <h5 class="mb-4">Basic Info</h5>
+          <fieldset class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="mail">Email:</label>
+            <input type="email" class="form-control" id="mail">
+          </fieldset>
+          <fieldset class="form-group">
+            <label for="role">Project Budget:</label>
+            <select class="c-select form-control" id="role" name="user_role">
+              <option value="select">------</option>
+              <option value="under $1k">Under $1k</option>
+              <option value="$1k - $2k">$1k - $2k</option>
+              <option value="$2k - $3k">$2k - $3k</option>
+              <option value="$3k - $5k">$3k - $5k</option>
+              <option value="more than $5k">More than $5k</option>
+            </select>
+          </fieldset>
+
+          <hr class="my-4">
+          <h5 class="mb-4">Project Type</h5>
+
+          <div class="form-group">
+            <div class="form-check custom-controls-stacked">
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">eCommerce Website</span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Blogging Website</span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Portfolio Website</span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Business Website</span>
+              </label>
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Other</span>
+              </label>
+            </div>
+          </div>
+
+          <hr class="mb-4">
+          <h5 class="mb-4">Project Details</h5>
+          <fieldset class="form-group">
+            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+          </fieldset>
+
+          <hr class="mb-4">
+          <a type="submit" class="btn btn-primary btn-lg">Submit</a>
+
+        </form><!-- /registration form -->
+      </div>
+    </div>
+  </div>
+ </div>
+  
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery first, then bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
